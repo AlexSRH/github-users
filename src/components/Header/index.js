@@ -10,7 +10,7 @@ function Header ({ theme, toggleTheme, handleSearch }) {
     <Container>
       <img src={logo} alt="Gitub Users"/>
       <form onSubmit={handleSearch}>
-        <input type="text" id="userNameInput" placeholder="Search for a User..."/>
+        <input type="text" id="userNameInput" autoComplete="off" placeholder="Search for a User..."/>
         <button type="submit"><FiSearch color="#8D8F92" size={16} /></button>
       </form>
       <ThemeChosser>
