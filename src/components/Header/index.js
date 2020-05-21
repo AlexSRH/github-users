@@ -5,12 +5,12 @@ import logo from '../../assets/logo.png'
 import ToggleButton from '../ToggleButton'
 import { Container, ThemeChosser } from './styles'
 
-function Header ({ theme, toggleTheme }) {
+function Header ({ theme, toggleTheme, handleSearch }) {
   return (
     <Container>
       <img src={logo} alt="Gitub Users"/>
-      <form>
-        <input type="text" id="user" placeholder="Search for a User..."/>
+      <form onSubmit={handleSearch}>
+        <input type="text" id="userNameInput" placeholder="Search for a User..."/>
         <button type="submit"><FiSearch color="#8D8F92" size={16} /></button>
       </form>
       <ThemeChosser>

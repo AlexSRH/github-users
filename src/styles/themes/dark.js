@@ -3,6 +3,10 @@ export default {
 
   colors: {
     background: '#222',
-    text: '#fff'
+    text: '#fff',
+    secondaryText: '#aaa',
+    repo: {
+      link: '#A6DFFF',
+    }
   }
 }
