@@ -7,7 +7,8 @@ import dark from './styles/themes/dark'
 import usePersistedState from './utils/usePersistedState'
 import GlobalStyles from './styles/global'
 import Header from './components/Header'
-import MainContainer from './components/MainContainer'
+import UserContainer from './components/UserContainer'
+import ErrorMessage from './components/ErrorMessage'
 
 import api from './services/api'
 
@@ -34,7 +35,7 @@ export default function App () {
     <ThemeProvider theme={theme}>
       <GlobalStyles />
       <Header theme={theme} toggleTheme={toggleTheme} handleSearch={handleSearch}/>
-      <MainContainer />
+      <ErrorMessage />
     </ThemeProvider>
   )
 }

@@ -2,7 +2,7 @@ import React from 'react'
 
 import { Container } from './styles'
 
-function MainContainer() {
+function UserContainer() {
   return (
     <Container>
       <div className="user-card">
@@ -40,4 +40,4 @@ function MainContainer() {
   )
 }
 
-export default MainContainer
+export default UserContainer
