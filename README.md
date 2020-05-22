@@ -34,7 +34,7 @@ Github Users é uma aplicação que pesquisa os repositórios de um usuário do 
 ## Instalação e execução
 
 1. Faça um clone desse repositório;
-2. Entre na pasta "backend" `cd backend`;
+2. Entre na pasta "backend" `cd github-users`;
 3. Execute `npm install` para instalar as dependencias;
 4. Execute `npm start` para iniciar a aplicação;
 5. Entre em [http://localhost:3000](http://localhost:3000);
