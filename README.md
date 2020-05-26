@@ -23,6 +23,7 @@
 - ReactJS
 - Axios
 - Styled Components
+- API do Github
 
 ## Descrição
 Github Users é uma aplicação que pesquisa os repositórios de um usuário do Github.
